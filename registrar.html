@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrar</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+		<div class="barra">
+		<div class="contenedor clearfix">
+			<div class="logo">
+				<img src="dsBuffer.png">
+			</div>
+			<div class="menu-movil">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class="navegacion-principal clearfix">
+				<a href="#">Nosotros</a>
+				<a href="#">Anucios</a>
+				<a href="contacto.html">Contacto</a>
+			</nav>
+		</div>
+	</div>
+
+	<section class="seccion contenedor">
+		<h2>Registro de Usuarios</h2>
+		<form id="registro" class="registro"action="controladores/registrar.php" method="post">
+			<div id="datos_usuario" class="registro caja clearfix">
+				<div class="campo">
+					<label for="identificacion">Identificación:</label>
+					<input type="text" id="identificacion" name="identificacion" placeholder="Tu identificacion">
+				</div>
+				<div class="campo">
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+				</div>
+				<div class="campo">
+					<label for="apellidos">Apellido:</label>
+					<input type="text" id="apellidos" name="apellidos" placeholder="Tu Apellido">
+				</div>
+				
+			</div>
+			<button id="enviar" name="enviar" type="submit" class="btn">ENVIAR</button>
+		</form>
+	</section>
+
+	<a href="../php-login/index.php" class="login">¿QUIERES INICIAR SECCION?</a>
+
+
+	<footer class="site-footer clearfix">
+		<div class="contenedor clearfix">
+			<div class="footer-informacion">
+				<h3>sobre <span>el Parqueadero</span></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="ultimos-tweets">
+				<h3>últimos <span>tweets</span></h3>
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</li>
+				</ul>
+			</div>
+			<div class="menu">
+				<h3>Redes <span>Sociales</span></h3>	
+				<nav class="redes-sociales2">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-pinterest-p"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>  
+				</nav>
+			</div>
+		</div>
+
+		<p class="copyright">
+			Todos los derechos reservados Juan Andres Pernet Ospina 2020.
+		</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parqueadero</title>
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="barra">
+		<div class="contenedor clearfix">
+			<div class="logo">
+				<img src="dsBuffer.png">
+			</div>
+			<div class="menu-movil">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class="navegacion-principal clearfix">
+				<a href="#">Nosotros</a>
+				<a href="#">Anucios</a>
+				<a href="#">Contacto</a>
+			</nav>
+		</div>
+	</div>
+
+
+	<header class="site-header">
+		<div class="hero">
+			<div class="contenido-header">
+				<nav class="redes-sociales">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-pinterest-p"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>  
+				</nav>
+				<h1 class="nombre-sitio">Parqueadero</h1>
+			</div>
+		</div>
+	</header>
+
+	<section class="section contenedor"></section>
+	<h2>Registro de Usuarios</h2>
+	<form id="Registro"class="registro"action="conexion.php" method="post">
+		<div id="datos_usuario" class="registro caja clearfix">
+			<div class="campo">
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" placeholder="tu Nombre">
+			</div>
+			<div class="campo">
+				<label for="apellido">Apellido:</label>
+				<input type="text" id="apellido" name="apellido" placeholder="Tu Apellido">
+			</div>
+			<div class="campo">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Tu Email">
+			</div>
+			<div class="campo">
+				<label for="email">Placa:</label>
+				<input type="text" id="Placa" name="Placa" placeholder="Placa">
+			</div>
+			<div class="campo">
+				<label for="email">Placa:</label>
+				<select>
+					<option> .....</option>
+					<option> Plan Un Dia</option>
+					<option> Plan 15 Dias</option>
+					<option> Plan Una Semana</option>
+				</select>
+			</div>
+			<button type="submit" class="button">Submit</button>
+			<div id="error"></div>
+		</div>
+	</form>
+
+</html>
